@@ -1,0 +1,19 @@
+.wrapper {
+	@apply relative inline-flex;
+
+	.form {
+		@apply shadow-block animate-scaleIn p-4 absolute right-2 w-60 z-20 rounded-lg;
+		top: calc(100% + 1.4rem);
+		background-color: #272532;
+
+		.register {
+			@apply text-gray-400 opacity-40 block text-center w-full;
+		}
+		.login {
+			@apply block text-center w-full;
+		}
+	}
+}
+.button {
+	@apply inline-flex mx-2 items-center justify-center text-3xl text-purple ml-6 opacity-75 transition-opacity hover:opacity-100;
+}
